@@ -1,0 +1,10 @@
+So, I found two tutorial videos for branches in Github; one is shorter, the other is more in-depth. Basically, though, you can use the command line (git branch -c [name_of_new_branch]) to create a branch on your computer and commit to there. The branch won't show up on Github until you push (from what I've seen so far, use the command line (git push origin head) to push the branch to GitHub. It won't merge the branch with main, so everyone can see what's in progress). To switch between your branches, use the command (git checkout [name_of_branch]). 
+ 
+Short tutorial video: https://youtu.be/Lf3DYRvCPFo
+In-depth tutorial video: https://youtu.be/Q1kHG842HoI
+ 
+IN SHORT;
+Use "git branch -c [name_of_branch]" to make a local branch on your machine.
+Use "git checkout [name_of_branch]" to swap over to your new local branch.
+Commit changes there as normal.
+Use "git push origin head" to push your new branch to the Github repository when you're done.
